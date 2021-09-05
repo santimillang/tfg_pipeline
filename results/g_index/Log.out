@@ -1,0 +1,174 @@
+STAR version=2.7.9a
+STAR compilation time,server,dir=2021-05-04T09:43:56-0400 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+##### Command Line:
+STAR --runThreadN 2 --runMode genomeGenerate --sjdbGTFtagExonParentTranscript Parent --sjdbGTFfile ggal_1_48850000_49020000.bed.gff --genomeDir g_index --genomeFastaFiles ggal_1_48850000_49020000.Ggal71.500bpflank.fa
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    2     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+sjdbGTFtagExonParentTranscriptParent     ~RE-DEFINED
+sjdbGTFfile                   ggal_1_48850000_49020000.bed.gff     ~RE-DEFINED
+genomeDir                     g_index     ~RE-DEFINED
+genomeFastaFiles              ggal_1_48850000_49020000.Ggal71.500bpflank.fa        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        2
+genomeDir                         g_index
+genomeFastaFiles                  ggal_1_48850000_49020000.Ggal71.500bpflank.fa   
+sjdbGTFfile                       ggal_1_48850000_49020000.bed.gff
+sjdbGTFtagExonParentTranscript    Parent
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 2   --genomeDir g_index   --genomeFastaFiles ggal_1_48850000_49020000.Ggal71.500bpflank.fa      --sjdbGTFfile ggal_1_48850000_49020000.bed.gff   --sjdbGTFtagExonParentTranscript Parent
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: g_index/
+Sep 05 15:16:06 ... starting to generate Genome files
+ggal_1_48850000_49020000.Ggal71.500bpflank.fa : chr # 0  "1" chrStart: 0
+Chromosome sequence lengths: 
+1	171001
+Genome sequence total length = 171001
+Genome size with padding = 262144
+Sep 05 15:16:06 ..... processing annotations GTF
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	9363	9365	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "1"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000304601";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	9492	9629	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "2"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128217";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	9807	9899	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "3"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128207";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	17513	17627	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "4"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128214";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	25466	25515	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "5"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128206";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	26906	27051	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "6"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128212";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	28318	28489	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "7"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128210";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	28902	28976	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "8"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128202";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	30102	30204	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "9"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128218";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	32102	32157	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "10"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128203";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	33998	34051	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "11"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128215";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	34472	34535	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "12"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128204";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	39445	39533	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "13"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128213";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	44828	44911	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "14"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128211";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	46449	46518	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "15"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128219";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	48688	48794	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "16"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128205";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	52850	52983	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "17"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000128221";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	54245	54379	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "18"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000307910";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	67033	67073	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "1"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000287083";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	67259	67616	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "2"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128246";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	71917	72009	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "3"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128244";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	77548	77649	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "4"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128251";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	89127	89264	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "5"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128258";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	90317	90429	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "6"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128248";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	91255	91753	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "7"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128255";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	95137	95207	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "8"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128250";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	95937	96066	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "9"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128253";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	97416	97534	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "10"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128256";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	98166	98279	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "11"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128260";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	99699	99842	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "12"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128257";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	105181	105231	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "13"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128245";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	106560	106602	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "14"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128247";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	107138	108673	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "15"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128259";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	112436	112682	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "16"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128252";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	113405	113494	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "17"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000128249";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	114631	114680	.	+	.	 gene_id "ENSGALG00000011854"; transcript_id "ENSGALT00000019339"; exon_number "18"; gene_name "UBN2"; gene_biotype "protein_coding"; transcript_name "UBN2-201"; exon_id "ENSGALE00000307389";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	123889	123999	.	+	.	 gene_id "ENSGALG00000011856"; transcript_id "ENSGALT00000019343"; exon_number "1"; gene_name "C7ORF55"; gene_biotype "protein_coding"; transcript_name "C7ORF55-201"; exon_id "ENSGALE00000295599";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	124324	124872	.	+	.	 gene_id "ENSGALG00000011856"; transcript_id "ENSGALT00000019343"; exon_number "2"; gene_name "C7ORF55"; gene_biotype "protein_coding"; transcript_name "C7ORF55-201"; exon_id "ENSGALE00000128271";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	124965	125213	.	+	.	 gene_id "ENSGALG00000011856"; transcript_id "ENSGALT00000019343"; exon_number "3"; gene_name "C7ORF55"; gene_biotype "protein_coding"; transcript_name "C7ORF55-201"; exon_id "ENSGALE00000128270";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	128066	128393	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "1"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000288455";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	136408	136502	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "2"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000195481";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	145684	145782	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "3"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128274";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	146627	146737	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "4"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128279";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	147215	147358	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "5"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128280";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	148372	148548	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "6"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128275";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	150722	150813	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "7"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128281";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	151683	151712	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "8"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000195480";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	152519	152713	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "9"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128277";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	158405	159323	.	+	.	 gene_id "ENSGALG00000011857"; transcript_id "ENSGALT00000019344"; exon_number "10"; gene_name "LUC7L2"; gene_biotype "protein_coding"; transcript_name "LUC7L2-201"; exon_id "ENSGALE00000128282";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	167819	167913	.	-	.	 gene_id "ENSGALG00000011859"; transcript_id "ENSGALT00000019347"; exon_number "1"; gene_name "GBE"; gene_biotype "protein_coding"; transcript_name "GBE-201"; exon_id "ENSGALE00000248984";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	165545	165776	.	-	.	 gene_id "ENSGALG00000011859"; transcript_id "ENSGALT00000019347"; exon_number "2"; gene_name "GBE"; gene_biotype "protein_coding"; transcript_name "GBE-201"; exon_id "ENSGALE00000128296";
+WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
+1	protein_coding	exon	163981	164109	.	-	.	 gene_id "ENSGALG00000011859"; transcript_id "ENSGALT00000019347"; exon_number "3"; gene_name "GBE"; gene_biotype "protein_coding"; transcript_name "GBE-201"; exon_id "ENSGALE00000128297";
+Processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff, found:
+		52 transcripts
+		52 exons (non-collapsed)
+		0 collapsed junctions
+Total junctions: 0
+Sep 05 15:16:06 ..... finished GTF processing
+
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=171001, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 7
+Estimated genome size with padding and SJs: total=genome+SJ=201262144 = 262144 + 201000000
+GstrandBit=32
+Number of SA indices: 342002
+Sep 05 15:16:06 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 2736016 bytes
+Sep 05 15:16:06 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2736016 bytes into g_index//SA_0 ; empty space on disk = 15747608576 bytes ... done
+Sep 05 15:16:06 ... loading chunks from disk, packing SA...
+Sep 05 15:16:06 ... finished generating suffix array
+Sep 05 15:16:06 ... generating Suffix Array index
+Sep 05 15:16:09 ... completed Suffix Array index
+Sep 05 15:16:09   Finished preparing junctions
+Sep 05 15:16:09 ..... finished inserting junctions into genome
+Sep 05 15:16:09 ... writing Genome to disk ...
+Writing 262144 bytes into g_index//Genome ; empty space on disk = 15747563520 bytes ... done
+SA size in bytes: 1410762
+Sep 05 15:16:09 ... writing Suffix Array to disk ...
+Writing 1410762 bytes into g_index//SA ; empty space on disk = 15747301376 bytes ... done
+Sep 05 15:16:09 ... writing SAindex to disk
+Writing 8 bytes into g_index//SAindex ; empty space on disk = 15745888256 bytes ... done
+Writing 120 bytes into g_index//SAindex ; empty space on disk = 15745888256 bytes ... done
+Writing 1565873491 bytes into g_index//SAindex ; empty space on disk = 15745888256 bytes ... done
+Sep 05 15:16:28 ..... finished successfully
+DONE: Genome generation, EXITING

@@ -1,0 +1,7 @@
+Sample	Picard_mqc-generalstats-picard-PERCENT_DUPLICATION	STAR_mqc-generalstats-star-uniquely_mapped_percent	STAR_mqc-generalstats-star-uniquely_mapped	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+ggal_gut	0.011043	78.79	2314.0					
+ggal_gut_1				14.334354783792989	45.0	103.97957099080695	20.0	2937.0
+ggal_gut_2				14.164113040517535	45.0	105.0	30.0	2937.0
+ggal_liver	0.011043	78.79	2314.0					
+ggal_liver_1				14.334354783792989	45.0	103.97957099080695	20.0	2937.0
+ggal_liver_2				14.164113040517535	45.0	105.0	30.0	2937.0
