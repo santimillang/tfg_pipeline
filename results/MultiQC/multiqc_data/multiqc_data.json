@@ -2,22 +2,22 @@
     "report_data_sources": {
         "Picard": {
             "DuplicationMetrics": {
-                "ggal_gut": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/dups/mark_dups_ggal_gut.metrics",
-                "ggal_liver": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/dups/mark_dups_ggal_liver.metrics"
+                "ggal_gut": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/dups/mark_dups_ggal_gut.metrics",
+                "ggal_liver": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/dups/mark_dups_ggal_liver.metrics"
             }
         },
         "STAR": {
             "SummaryLog": {
-                "ggal_liver": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/star/ggal_liverLog.final.out",
-                "ggal_gut": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/star/ggal_gutLog.final.out"
+                "ggal_liver": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/star/ggal_liverLog.final.out",
+                "ggal_gut": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/star/ggal_gutLog.final.out"
             }
         },
         "FastQC": {
             "all_sections": {
-                "ggal_liver_2": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_liver_2_fastqc.zip",
-                "ggal_gut_2": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_gut_2_fastqc.zip",
-                "ggal_gut_1": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_gut_1_fastqc.zip",
-                "ggal_liver_1": "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_liver_1_fastqc.zip"
+                "ggal_liver_2": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_liver_2_fastqc.zip",
+                "ggal_gut_2": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_gut_2_fastqc.zip",
+                "ggal_gut_1": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_gut_1_fastqc.zip",
+                "ggal_liver_1": "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_liver_1_fastqc.zip"
             }
         }
     },
@@ -8189,12 +8189,12 @@
         }
     },
     "config_analysis_dir_abs": [
-        "/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a"
+        "/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f"
     ],
     "config_analysis_dir": [
         "."
     ],
-    "config_creation_date": "2021-09-05, 15:17",
+    "config_creation_date": "2021-09-05, 17:54",
     "config_git_hash": null,
     "config_intro_text": null,
     "config_report_comment": null,

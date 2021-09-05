@@ -1,9 +1,9 @@
 Module	Section	Sample Name	Source
-Picard	DuplicationMetrics	ggal_gut	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/dups/mark_dups_ggal_gut.metrics
-Picard	DuplicationMetrics	ggal_liver	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/dups/mark_dups_ggal_liver.metrics
-STAR	SummaryLog	ggal_liver	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/star/ggal_liverLog.final.out
-STAR	SummaryLog	ggal_gut	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/star/ggal_gutLog.final.out
-FastQC	all_sections	ggal_liver_2	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_liver_2_fastqc.zip
-FastQC	all_sections	ggal_gut_2	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_gut_2_fastqc.zip
-FastQC	all_sections	ggal_gut_1	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_gut_1_fastqc.zip
-FastQC	all_sections	ggal_liver_1	/home/santi/tfg_pre/work/11/0e626567863bffab1ad128ce0a280a/fastqc/ggal_liver_1_fastqc.zip
+Picard	DuplicationMetrics	ggal_gut	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/dups/mark_dups_ggal_gut.metrics
+Picard	DuplicationMetrics	ggal_liver	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/dups/mark_dups_ggal_liver.metrics
+STAR	SummaryLog	ggal_liver	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/star/ggal_liverLog.final.out
+STAR	SummaryLog	ggal_gut	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/star/ggal_gutLog.final.out
+FastQC	all_sections	ggal_liver_2	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_liver_2_fastqc.zip
+FastQC	all_sections	ggal_gut_2	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_gut_2_fastqc.zip
+FastQC	all_sections	ggal_gut_1	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_gut_1_fastqc.zip
+FastQC	all_sections	ggal_liver_1	/home/santi/tfg_pre/work/cd/93fc856f83e91bcc6c476a500e397f/fastqc/ggal_liver_1_fastqc.zip

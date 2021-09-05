@@ -29,13 +29,13 @@ Number of fastq files for each mate = 1
 ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
 Finished loading and checking parameters
 --genomeDir directory exists and will be overwritten: g_index/
-Sep 05 15:16:06 ... starting to generate Genome files
+Sep 05 17:51:40 ... starting to generate Genome files
 ggal_1_48850000_49020000.Ggal71.500bpflank.fa : chr # 0  "1" chrStart: 0
 Chromosome sequence lengths: 
 1	171001
 Genome sequence total length = 171001
 Genome size with padding = 262144
-Sep 05 15:16:06 ..... processing annotations GTF
+Sep 05 17:51:40 ..... processing annotations GTF
 WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
 1	protein_coding	exon	9363	9365	.	+	.	 gene_id "ENSGALG00000011847"; transcript_id "ENSGALT00000019330"; exon_number "1"; gene_name "TTC26"; gene_biotype "protein_coding"; transcript_name "TTC26-201"; exon_id "ENSGALE00000304601";
 WARNING: while processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff: no transcript_id for line:
@@ -145,30 +145,30 @@ Processing pGe.sjdbGTFfile=ggal_1_48850000_49020000.bed.gff, found:
 		52 exons (non-collapsed)
 		0 collapsed junctions
 Total junctions: 0
-Sep 05 15:16:06 ..... finished GTF processing
+Sep 05 17:51:40 ..... finished GTF processing
 
 !!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=171001, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 7
 Estimated genome size with padding and SJs: total=genome+SJ=201262144 = 262144 + 201000000
 GstrandBit=32
 Number of SA indices: 342002
-Sep 05 15:16:06 ... starting to sort Suffix Array. This may take a long time...
+Sep 05 17:51:40 ... starting to sort Suffix Array. This may take a long time...
 Number of chunks: 1;   chunks size limit: 2736016 bytes
-Sep 05 15:16:06 ... sorting Suffix Array chunks and saving them to disk...
-Writing 2736016 bytes into g_index//SA_0 ; empty space on disk = 15747608576 bytes ... done
-Sep 05 15:16:06 ... loading chunks from disk, packing SA...
-Sep 05 15:16:06 ... finished generating suffix array
-Sep 05 15:16:06 ... generating Suffix Array index
-Sep 05 15:16:09 ... completed Suffix Array index
-Sep 05 15:16:09   Finished preparing junctions
-Sep 05 15:16:09 ..... finished inserting junctions into genome
-Sep 05 15:16:09 ... writing Genome to disk ...
-Writing 262144 bytes into g_index//Genome ; empty space on disk = 15747563520 bytes ... done
+Sep 05 17:51:40 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2736016 bytes into g_index//SA_0 ; empty space on disk = 9401180160 bytes ... done
+Sep 05 17:51:41 ... loading chunks from disk, packing SA...
+Sep 05 17:51:41 ... finished generating suffix array
+Sep 05 17:51:41 ... generating Suffix Array index
+Sep 05 17:51:44 ... completed Suffix Array index
+Sep 05 17:51:44   Finished preparing junctions
+Sep 05 17:51:44 ..... finished inserting junctions into genome
+Sep 05 17:51:44 ... writing Genome to disk ...
+Writing 262144 bytes into g_index//Genome ; empty space on disk = 9401065472 bytes ... done
 SA size in bytes: 1410762
-Sep 05 15:16:09 ... writing Suffix Array to disk ...
-Writing 1410762 bytes into g_index//SA ; empty space on disk = 15747301376 bytes ... done
-Sep 05 15:16:09 ... writing SAindex to disk
-Writing 8 bytes into g_index//SAindex ; empty space on disk = 15745888256 bytes ... done
-Writing 120 bytes into g_index//SAindex ; empty space on disk = 15745888256 bytes ... done
-Writing 1565873491 bytes into g_index//SAindex ; empty space on disk = 15745888256 bytes ... done
-Sep 05 15:16:28 ..... finished successfully
+Sep 05 17:51:44 ... writing Suffix Array to disk ...
+Writing 1410762 bytes into g_index//SA ; empty space on disk = 9400803328 bytes ... done
+Sep 05 17:51:44 ... writing SAindex to disk
+Writing 8 bytes into g_index//SAindex ; empty space on disk = 9399390208 bytes ... done
+Writing 120 bytes into g_index//SAindex ; empty space on disk = 9399390208 bytes ... done
+Writing 1565873491 bytes into g_index//SAindex ; empty space on disk = 9399390208 bytes ... done
+Sep 05 17:52:00 ..... finished successfully
 DONE: Genome generation, EXITING
